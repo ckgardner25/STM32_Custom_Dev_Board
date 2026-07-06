@@ -1,5 +1,5 @@
-# STM32 Custom Development Board
+# STM32 Controlled Bidirectional DC-DC Converter
 
-- Designed a custom STM32G474 development board from the ground up, including schematic capture, 4-layer PCB layout, power distribution, decoupling, clock circuitry, USB, SWD programming, and peripheral interfaces in KiCad.
-- Applied embedded hardware design practices including signal integrity, power integrity, component selection, high-speed routing, and manufacturability while validating the design through ERC/DRC and design reviews.
-- Developed as a reusable platform for future embedded systems projects, providing a foundation for firmware development, peripheral testing, and hardware prototyping.
+• Designing a synchronous bidirectional buck-boost converter topology utilizing an STM32 MCU to execute real-time digital power conversion.
+• Implemented a high-frequency bare-metal PID control loop in C to dynamically regulate output voltage and sample ADC feedback at 100 kHz.
+
