@@ -1,6 +1,8 @@
 # STM32 Controlled Bidirectional DC-DC Converter
 
-• Designing a synchronous bidirectional buck-boost converter topology utilizing an STM32 MCU to execute real-time digital power conversion.
+• Designed the embedded gate-drive architecture using complementary PWM with dead-time insertion, integrating half-bridge gate drivers and an AVR microcontroller to safely control all four MOSFETs while preventing shoot-through.
 
-• Implementing a high-frequency bare-metal PID control loop in C to dynamically regulate output voltage and sample ADC feedback at 100 kHz.
+• Designed and simulated a bidirectional synchronous buck-boost converter using PSpice, performing power stage design, MOSFET gate-drive analysis, and converter validation from schematic through functional verification.
+
+• Engineered a 100 kHz complementary PWM control architecture with dead-time insertion for a four-MOSFET synchronous converter, validating gate-drive timing and switching behavior using circuit simulation.
 
