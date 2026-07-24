@@ -1,4 +1,4 @@
-# STM32 Controlled Bidirectional DC-DC Converter
+# AVR Controlled Bidirectional DC-DC Converter
 
 • Designed the embedded gate-drive architecture using complementary PWM with dead-time insertion, integrating half-bridge gate drivers and an AVR microcontroller to safely control all four MOSFETs while preventing shoot-through.
 
