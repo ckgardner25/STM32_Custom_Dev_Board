@@ -7,3 +7,4 @@
 • Engineered a 100 kHz complementary PWM control architecture with dead-time insertion for a four-MOSFET synchronous converter, validating gate-drive timing and switching behavior using circuit simulation.
 
 <img width="400" height="350" alt="DMM example" src="Renderings/Overview.png" />
+<img width="400" height="350" alt="DMM example" src="Renderings/Bottom.png" />
